@@ -1,84 +1,47 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{joshi2022smooth,
+abbr = {Preprint},
+  title={Revisiting self-distillation},
+  author={Minh Pham* and Minsu Cho* and Ameya Joshi* and and Chinmay Hegde},
+  journal={arXiv preprint arXiv:2206.08491},
+  pdf={https://arxiv.org/pdf/2206.08491.pdf},
+  abstract={Knowledge distillation is the procedure of transferring "knowledge" from a large model (the teacher) to a more compact one (the student), often being used in the context of model compression. When both models have the same architecture, this procedure is called self-distillation. Several works have anecdotally shown that a self-distilled student can outperform the teacher on held-out data. In this work, we systematically study self-distillation in a number of settings. We first show that even with a highly accurate teacher, self-distillation allows a student to surpass the teacher in all cases. Secondly, we revisit existing theoretical explanations of (self) distillation and identify contradicting examples, revealing possible drawbacks of these explanations. Finally, we provide an alternative explanation for the dynamics of self-distillation through the lens of loss landscape geometry. We conduct extensive experiments to show that self-distillation leads to flatter minima, thereby resulting in better generalization.},
+  year={2022}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{joshi2022smooth,
+abbr = {Preprint},
+  title={Smooth-Reduce: Leveraging Patches for Improved Certified Robustness},
+  author={Ameya Joshi and Minh Pham and Minsu Cho and Leonid Boytsov and Filipe Condessa and J. Zico Kolter and and Chinmay Hegde},
+  journal={arXiv preprint arXiv:2205.06154},
+  pdf={https://arxiv.org/pdf/2205.06154.pdf},
+  abstract={Randomized smoothing (RS) has been shown to be a fast, scalable technique for certifying the robustness of deep neural network classifiers. However, methods based on RS require augmenting data with large amounts of noise, which leads to significant drops in accuracy. We propose a training-free, modified smoothing approach, Smooth-Reduce, that leverages patching and aggregation to provide improved classifier certificates. Our algorithm classifies overlapping patches extracted from an input image, and aggregates the predicted logits to certify a larger radius around the input. We study two aggregation schemes -- max and mean -- and show that both approaches provide better certificates in terms of certified accuracy, average certified radii and abstention rates as compared to concurrent approaches. We also provide theoretical guarantees for such certificates, and empirically show significant improvements over other randomized smoothing methods that require expensive retraining. Further, we extend our approach to videos and provide meaningful certificates for video classifiers.},
+  year={2022}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
+@article{pham2020tbse,
+abbr = {ICASSP},
+  title={Toward better speaker embeddings: Automated collection of speech samples from unknown distinct speakers},
+  author={Minh Pham and Zeqian Li and and Jacob Whitehill},
+  journal={IEEE International Conference on Acoustics, Speech and Signal Processing},
+  year={2020},
+  published={true},
+  selected = {true},
+  pdf={https://par.nsf.gov/servlets/purl/10158092},
+  abstract={The accuracy of speaker verification and diarization models depends on the quality of the speaker embeddings used to separate audio samples from different speakers. With the goal of training better embedding models, we devise an au- tomatic pipeline for large-scale collection of speech samples from unique speakers that is significantly more automated than previous approaches. With this pipeline, we collect and publish the BookTubeSpeech dataset, containing 8,450 YouTube videos (7.74 min per video on average) that each contains a single unique speaker. Using this dataset combined with VoxCeleb2, we show a substantial improvement in the quality of embeddings when tested on LibriSpeech compared to a model trained on only VoxCeleb2.}
+  }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
+@article{pham2020rne,
+abbr = {INTERSPEECH},
+  title={How does label noise affect the quality of speaker embeddings?},
+  author={Minh Pham and Zeqian Li and and Jacob Whitehill},
+  journal={Conference of the International Speech Communication Association},
+  year={2020},
+  published={true},
+  selected = {true},
+  pdf={http://www.interspeech2020.org/uploadfile/pdf/Wed-3-5-2.pdf},
+  abstract={A common assumption when collecting speech datasets is that the accuracy of data labels strongly influences the accuracy of speaker embedding models and verification systems trained from these data. However, we show in experiments1 on the large and diverse VoxCeleb2 dataset that this is not always the case: Under four different labeling models (Split, Merge, Permute, and Corrupt), we find that the impact on trained speaker em- bedding models, as measured by the Equal Error Rate (EER) of speaker verification, is mild (just a few percent absolute error increase), except with very large amounts of noise (i.e., every minibatch is almost completely corrupted). This suggests that efforts to collect speech datasets might benefit more from en- suring large size and diversity rather than meticulous labeling.}
+  }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

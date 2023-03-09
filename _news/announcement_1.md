@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-04-15 00:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+I will start my Ph.D. in Computer Science at NYU Tandon School of Engineering in Fall 2021. I’m supported by the Dean’s PhD Fellowship. :smile:
