@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate,  <a href='https://engineering.nyu.edu'>Tandon School of Engineering @NYU</a>.
+subtitle:
+# subtitle: Ph.D. Candidate,  <a href='https://engineering.nyu.edu'>Tandon School of Engineering @NYU</a>.
 
 profile:
   align: right
