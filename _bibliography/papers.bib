@@ -1,5 +1,34 @@
 ---
 ---
+@article{lu2025whenerased,
+abbr = {NeurIPS},
+  title={When Are Concepts Erased From Diffusion Models?},
+  author={Kevin Lu and Nicky Kriplani and Rohit Gandikota and Minh Pham and David Bau and Chinmay Hegde and Niv Cohen},
+  journal={Conference on Neural Information Processing Systems},
+  pdf={https://arxiv.org/pdf/2505.17013.pdf},
+  abstract={Concept erasure, the ability to selectively prevent a model from generating specific concepts, has attracted growing interest, with various approaches emerging to address the challenge. However, it remains unclear how thoroughly these methods erase the target concept. We begin by proposing two conceptual models for the erasure mechanism in diffusion models: (i) reducing the likelihood of generating the target concept, and (ii) interfering with the model’s internal guidance mechanisms. To thoroughly assess whether a concept has been truly erased from the model, we introduce a suite of independent evaluations. Our evaluation framework includes adversarial attacks, novel probing techniques, and analysis of the model's alternative generations in place of the erased concept. Our results shed light on the tension between minimizing side effects and maintaining robustness to adversarial prompts. Broadly, our work underlines the importance of comprehensive evaluation for erasure in diffusion models.},
+  year={2025}
+}
+
+@article{kriplani2024solidmark,
+abbr = {NeurIPS},
+  title={SolidMark: Evaluating Image Memorization in Generative Models},
+  author={Nicky Kriplani and Minh Pham and Gowthami Somepalli and Chinmay Hegde and Niv Cohen},
+  journal={Safe Generative AI Workshop @ NeurIPS},
+  pdf={https://arxiv.org/abs/2503.00592.pdf},
+  abstract={Recent works have shown that diffusion models are able to memorize training images and emit them at generation time. However, the metrics used to evaluate memorization and its mitigation techniques suffer from dataset-dependent biases and struggle to detect whether a given specific image has been memorized or not. This paper begins with a comprehensive exploration of issues surrounding memorization metrics in diffusion models. Then, to mitigate these issues, we introduce SolidMark, a novel evaluation method that provides a per-image memorization score. We then re-evaluate existing memorization mitigation techniques and show that SolidMark is capable of evaluating fine-grained pixel-level memorization. Finally, we release a variety of models based on SolidMark to facilitate further research for understanding memorization phenomena in generative models.},
+  year={2024}
+}
+
+@article{pham2024tv,
+abbr = {CVPR},
+  title={Robust Concept Erasure Using Task Vectors},
+  author={Minh Pham and Kelly O. Marshall and Chinmay Hegde and Niv Cohen},
+  journal={Generative Models for Computer Vision Workshop @ CVPR},
+  pdf={https://arxiv.org/pdf/2404.03631.pdf},
+  abstract={With the rapid growth of text-to-image models, a variety of techniques have been suggested to prevent undesired generations. Yet, these methods often only protect against specific user prompts and have been shown to allow undesirable generations with other inputs. Here, we argue that the core issue is that prior methods make the erasure process dependent on the user's prompt, rather than removing the concept in an \textit{unconditional} manner. We first show that compared to input-dependent erasure methods, concept erasure that uses Task Vectors (TV) is more robust to unexpected user inputs, not seen during training. However, TV-based erasure can also affect the core performance of the edited model, particularly when the required edit strength is unknown. To this end, we propose a method called Diverse Inversion, which we use to estimate the required strength of the TV edit. Diverse Inversion finds within the model input space a large set of word embeddings, each of which induces the generation of the target concept. We find that encouraging diversity in the set makes our estimation more robust to unexpected prompts. Finally, we show that Diverse Inversion enables us to apply a TV edit only to a subset of the model weights, enhancing the erasure capabilities while better maintaining model utility.},
+  year={2024}
+}
 
 @article{pham2024circumventing,
 abbr = {ICLR},
