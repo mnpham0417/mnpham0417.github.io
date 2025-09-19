@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<!-- <span style="color: red;">I expect to graduate in 2026 and am actively seeking research scientist/engineer positions. If my expertise aligns with your needs, please feel free to contact me via email to request my latest resume.</span> -->
+<span style="color: red;">I expect to graduate in 2026 and am actively seeking research scientist/engineer positions. If my expertise aligns with your needs, please feel free to contact me via email to request my latest resume.</span>
 
 I am a final year Ph.D. Candidate at New York University, under the supervision of [Prof. Chinmay Hegde](https://chinmayhegde.github.io), and part of the [Algorithms and Foundations Group](https://csefoundations.engineering.nyu.edu). Prior to this, I obtained dual Bachelor's degrees in Computer Science and Mathematical Sciences from Worcester Polytechnic Institute. During my undergraduate studies, I had the privilege of being mentored by [Prof. Jacob Whitehill](https://users.wpi.edu/~jrwhitehill/).
 
