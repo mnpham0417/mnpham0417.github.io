@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
+# Explicitly specify uri version
+gem 'uri', '0.10.1'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -14,7 +18,6 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
 end
